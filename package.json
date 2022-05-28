@@ -1,0 +1,22 @@
+{
+  "name": "micro-desafio-estructura-de-un-sitio-web",
+  "version": "1.0.0",
+  "description": "MercadoLiebre",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AstorLevy/Mirco-Desafio-Estructura-de-un-sitio-web.git"
+  },
+  "author": "Astor Levy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AstorLevy/Mirco-Desafio-Estructura-de-un-sitio-web/issues"
+  },
+  "homepage": "https://github.com/AstorLevy/Mirco-Desafio-Estructura-de-un-sitio-web#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
