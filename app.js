@@ -19,7 +19,15 @@ app.listen(port, ()=>{
 });
 
 //Defino las rutas de HTML------------------------------------------------------------------------------
+
+//HOME
 const homePath = path.join(__dirname, "/views/home.html")
 app.get("/",(req, res)=>{
 res.sendFile(homePath);
+})
+
+//LOGIN
+const loginPath = path.join(__dirname, "/views/login.html")
+app.get("/login",(req, res)=>{
+res.sendFile(loginPath);
 })
