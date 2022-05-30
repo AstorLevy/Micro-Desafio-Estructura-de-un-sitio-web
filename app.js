@@ -31,3 +31,9 @@ const loginPath = path.join(__dirname, "/views/login.html")
 app.get("/login",(req, res)=>{
 res.sendFile(loginPath);
 })
+
+//REGISTER
+const registerPath = path.join(__dirname, "/views/register.html")
+app.get("/register",(req, res)=>{
+res.sendFile(registerPath);
+})
