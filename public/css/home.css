@@ -99,7 +99,7 @@ h4{
     color:#666;
 }
 
-
+/* /MEDIA QUERIES/ */
 @media (min-width: 361px){
     
     main section article {
@@ -133,3 +133,6 @@ h4{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 }
+
+
+

@@ -152,7 +152,7 @@ section#copy {
     margin: 0 auto;
 }
 
-
+/* MEDIA QUERIES */
 @media (min-width: 361px) {
 
     #encabezado>* {
