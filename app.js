@@ -1,13 +1,10 @@
-//Requiero y creo las constantes express y path---------------------------------------------------------
 const express = require('express');
-const path = require('path');
-
-//creo la variable app que ejecuta express--------------------------------------------------------------
 let app = express(); 
-
+const path = require('path');
+app.use(express.static('public'));
 app.use(express.urlencoded({extended:false}));
 
-//Declaro la ruta de la cual obtendre los recursos estaticos--------------------------------------------
+
 const publicPath = path.join(__dirname,'/public');
 app.use(express.static(publicPath));
 
